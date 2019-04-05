@@ -1,0 +1,18 @@
+[sf] 2019/04/06 01:04:55.744937 client.go:52: command "sf": "/说 哈哈哈".
+[sf] 2019/04/06 01:05:04.441144 client.go:52: command "sf": "/帮助".
+[sf] 2019/04/06 01:05:11.641461 client.go:52: command "sf": "/密语 ss 哈哈哈".
+19/04/06 00:18:37.392908 client.go:52: command "sf": "go".
+[sf] 2019/04/06 00:18:37.392973 client.go:56: Failed to find command "go" during command "go"
+[sf] 2019/04/06 00:18:44.446804 client.go:52: command "sf": "tell".
+[sf] 2019/04/06 00:18:44.446870 client.go:56: Failed to find command "tell" during command "tell"
+[sf] 2019/04/06 00:26:33.422390 client.go:52: command "sf": "/look".
+[sf] 2019/04/06 00:26:39.687455 client.go:52: command "sf": "/down".
+[sf] 2019/04/06 00:26:39.687536 client.go:56: Failed to find command "/down" during command "/down"
+[sf] 2019/04/06 00:26:42.815139 client.go:52: command "sf": "/go down".
+[sf] 2019/04/06 00:27:00.309107 client.go:52: command "sf": "/say ss".
+[sf] 2019/04/06 00:27:07.419092 client.go:52: command "sf": "/me".
+[sf] 2019/04/06 00:27:17.791873 client.go:52: command "sf": "/finger".
+[sf] 2019/04/06 00:27:26.735696 client.go:52: command "sf": "/shout".
+[sf] 2019/04/06 00:27:52.239895 client.go:52: command "sf": "/who".
+[sf] 2019/04/06 00:27:59.867550 client.go:52: command "sf": "/look".
+[sf] 2019/04/06 00:28:06.313935 client.go:52: command "sf": "/go up".
