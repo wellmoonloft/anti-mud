@@ -8,3 +8,9 @@
 [error] 2019/04/06 01:19:28.341535 core.go:171: Failed to 'look' on startup
 [error] 2019/04/06 01:24:43.582146 core.go:171: Failed to 'look' on startup
 [error] 2019/04/06 01:25:53.332856 core.go:171: Failed to 'look' on startup
+[error] 2019/04/06 01:43:02.125565 core.go:171: Failed to 'look' on startup
+[error] 2019/04/06 01:44:32.644982 core.go:171: Failed to 'look' on startup
+[error] 2019/04/06 01:46:51.955594 core.go:171: Failed to 'look' on startup
+[error] 2019/04/06 01:47:05.995748 player.go:116: Player tried to move to unknown room "underground" -> "".
+[error] 2019/04/06 01:48:45.942237 core.go:171: Failed to 'look' on startup
+[error] 2019/04/06 01:49:18.961554 core.go:171: Failed to 'look' on startup

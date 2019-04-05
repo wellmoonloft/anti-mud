@@ -25,7 +25,7 @@ func (r room) describe(p player) string {
 	str += fmt.Sprintf("%s\n", r.description)
 	if len(r.exitDirs()) != 0 {
 		exits := strings.Join(r.exitDirs(), ", ")
-		str += setFg(colorYellow, fmt.Sprintf("Exits: %s\n", exits))
+		str += setFg(colorYellow, fmt.Sprintf("出口: %s\n", exits))
 	}
 	playerList := r.playerNicks
 	removeStringFromList(p.nickname, &playerList)

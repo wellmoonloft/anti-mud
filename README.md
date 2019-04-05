@@ -14,4 +14,4 @@ fork from [gomud](https://github.com/dominichamon/gomud)
 
 目前架子搭起来了，基本功能还需要做一个npc放置和npc对话以及选项判断，就可以写剧情了
 
-![](http://image.igerm.cn/img/20190406010721.png)
+![](http://image.igerm.cn/img/20190406015015.png)

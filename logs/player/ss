@@ -1,7 +1,7 @@
-[ss] 2019/04/06 01:25:55.739911 client.go:52: command "ss": "/帮助".
-[ss] 2019/04/06 01:26:00.813799 client.go:52: command "ss": "/在线玩家".
-[ss] 2019/04/06 01:26:07.395095 client.go:52: command "ss": "/查玩家 ss".
-/04/06 01:25:12.146150 client.go:52: command "ss": "/查玩家".
+[ss] 2019/04/06 01:49:21.852408 client.go:52: command "ss": "/看".
+[ss] 2019/04/06 01:49:28.771307 client.go:52: command "ss": "/往 门".
+ss] 2019/04/06 01:48:51.308194 client.go:56: 没有这个命令 "/大门" during command "/大门"
+2.146150 client.go:52: command "ss": "/查玩家".
 0:57:27.268382 client.go:56: Failed to find command "down" during command "down"
 [ss] 2019/04/06 00:57:30.800240 client.go:52: command "ss": "/down".
 [ss] 2019/04/06 00:57:30.800309 client.go:56: Failed to find command "/down" during command "/down"
