@@ -72,7 +72,7 @@ func (p *player) load(path string) error {
 	p.nickname = newPlayer.Nickname
 	p.realname = newPlayer.Realname
 	p.room = newPlayer.Room
-	log.Printf("Loaded player %q from %q.\n", p.nickname, path)
+	log.Printf("读取玩家 %q 从 %q.\n", p.nickname, path)
 	return nil
 }
 
@@ -102,7 +102,7 @@ func (p player) save() {
 		return
 	}
 	p.fileMutex.Unlock()
-	log.Printf("Saved player %q (%d bytes) to %q.\n", p.nickname, len(b), filename)
+	log.Printf("保存玩家 %q (%d bytes) 到 %q.\n", p.nickname, len(b), filename)
 }
 
 func (p *player) toRoom(cl client, room string) error {

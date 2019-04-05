@@ -1,8 +1,8 @@
-[ss] 2019/04/06 01:04:21.252087 client.go:52: command "ss": "/帮助".
-[ss] 2019/04/06 01:04:24.458205 client.go:52: command "ss": "/说 绅士手".
-[ss] 2019/04/06 01:06:28.952494 client.go:52: command "ss": "/看".
-/06 00:57:27.268335 client.go:52: command "ss": "down".
-[ss] 2019/04/06 00:57:27.268382 client.go:56: Failed to find command "down" during command "down"
+[ss] 2019/04/06 01:25:55.739911 client.go:52: command "ss": "/帮助".
+[ss] 2019/04/06 01:26:00.813799 client.go:52: command "ss": "/在线玩家".
+[ss] 2019/04/06 01:26:07.395095 client.go:52: command "ss": "/查玩家 ss".
+/04/06 01:25:12.146150 client.go:52: command "ss": "/查玩家".
+0:57:27.268382 client.go:56: Failed to find command "down" during command "down"
 [ss] 2019/04/06 00:57:30.800240 client.go:52: command "ss": "/down".
 [ss] 2019/04/06 00:57:30.800309 client.go:56: Failed to find command "/down" during command "/down"
 [ss] 2019/04/06 00:57:38.967554 client.go:52: command "ss": "go down".

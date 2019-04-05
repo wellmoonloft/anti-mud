@@ -23,7 +23,7 @@ func init() {
 func LoadPlayerDb(playerDir string) error {
 	players.dir = playerDir
 	wd, _ := os.Getwd()
-	log.Printf("Loading players from %s/%s\n", wd, players.dir)
+	log.Printf("读取玩家们从 %s/%s\n", wd, players.dir)
 	return filepath.Walk(playerDir, func(path string, fi os.FileInfo, err error) error {
 		if err != nil {
 			return err

@@ -24,7 +24,7 @@ func init() {
 func LoadRoomDb(roomDir, startId string) error {
 	startRoomId = startId
 	wd, _ := os.Getwd()
-	log.Printf("Loading rooms from %s/%s\n", wd, roomDir)
+	log.Printf("读取房间从 %s/%s\n", wd, roomDir)
 	return filepath.Walk(roomDir, func(path string, fi os.FileInfo, err error) error {
 		if err != nil {
 			return err
@@ -68,7 +68,7 @@ func (db *roomDb) load(path string, fi os.FileInfo) error {
 			exits:       newRoom.Exits,
 			playerNicks: make([]string, 0),
 		}
-		log.Printf("Loaded room %q from %q.\n", id, path)
+		log.Printf("读取房间 %q 从 %q.\n", id, path)
 	}
 	return nil
 }

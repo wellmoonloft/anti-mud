@@ -43,7 +43,6 @@ func init() {
 		},
 	}
 
-
 	commands["密语"] = command{
 		minArgs: 2,
 		maxArgs: -1,
@@ -76,7 +75,7 @@ func init() {
 			}
 		},
 	}
-	commands["shout"] = command{
+	commands["大喊"] = command{
 		minArgs: 1,
 		maxArgs: -1,
 		usage:   []string{"<message>"},
@@ -87,7 +86,7 @@ func init() {
 			}
 		},
 	}
-	commands["查玩家"] = command{
+	commands["在线玩家"] = command{
 		minArgs: 0,
 		maxArgs: 0,
 		usage:   []string{""},
@@ -97,7 +96,7 @@ func init() {
 			return &ret, nil
 		},
 	}
-	commands["finger"] = command{
+	commands["查玩家"] = command{
 		minArgs: 1,
 		maxArgs: 1,
 		usage:   []string{"<player>"},
@@ -222,6 +221,6 @@ func doCommand(cl client, cmd string, args []string) error {
 		}
 		return nil
 	}
-	io.WriteString(cl.conn, "什么? (尝试用命令 \"/帮助\")\n")
+	io.WriteString(cl.conn, " (尝试用命令 \"/帮助\")\n")
 	return fmt.Errorf("没有这个命令 %q", cmd)
 }

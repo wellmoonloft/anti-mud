@@ -81,16 +81,16 @@ func (c client) writeLinesFrom(ch <-chan message) {
 		case messageTypeSay:
 			if sameRoom(c, msg) {
 				if msg.from == c {
-					toPrint = setFg(colorYellow, fmt.Sprintf("你说 \"%s\".", msg.message))
+					toPrint = setFg(colorYellow, fmt.Sprintf("你说： \"%s\".", msg.message))
 				} else {
-					toPrint = setFg(colorYellow, fmt.Sprintf("%s 说 \"%s\".", from, msg.message))
+					toPrint = setFg(colorYellow, fmt.Sprintf("%s 说： \"%s\".", from, msg.message))
 				}
 			}
 		case messageTypeTell:
 			if msg.from == c {
-				toPrint = setFg(colorGreen, fmt.Sprintf("你密语 %s \"%s\".", msg.to, msg.message))
+				toPrint = setFg(colorGreen, fmt.Sprintf("你密语 %s ： \"%s\".", msg.to, msg.message))
 			} else if msg.to == c.player {
-				toPrint = setFg(colorGreen, fmt.Sprintf("%s 密语你 \"%s\".", from, msg.message))
+				toPrint = setFg(colorGreen, fmt.Sprintf("%s 密语你 ： \"%s\".", from, msg.message))
 			}
 		case messageTypeEmote:
 			if sameRoom(c, msg) {
@@ -102,9 +102,9 @@ func (c client) writeLinesFrom(ch <-chan message) {
 			}
 		case messageTypeShout:
 			if msg.from == c {
-				toPrint = setFgBold(colorCyan, fmt.Sprintf("You shout \"%s\".", msg.message))
+				toPrint = setFgBold(colorCyan, fmt.Sprintf("你大喊： \"%s\".", msg.message))
 			} else {
-				toPrint = setFgBold(colorCyan, fmt.Sprintf("%s shouts \"%s\".", from, msg.message))
+				toPrint = setFgBold(colorCyan, fmt.Sprintf("%s 大喊： \"%s\".", from, msg.message))
 			}
 		case messageTypeQuit:
 			if sameRoom(c, msg) {
